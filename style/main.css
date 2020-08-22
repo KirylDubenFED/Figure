@@ -1,0 +1,113 @@
+* {
+    box-sizing: border-box;
+    margin    : 0;
+    padding   : 0;
+}
+
+.wrap {
+    position: relative;
+    width   : 1000px;
+    height  : 1000px;
+    margin  : 0 auto;
+}
+
+.big-square {
+    position        : relative;
+    top             : 25%;
+    left            : 25%;
+    width           : 50%;
+    height          : 50%;
+    z-index         : 10;
+    background-color: #00a3ff;
+    z-index         : 10;
+}
+
+.big-square:hover {
+    background-color: #4a05fa;
+    z-index         : 16;
+    border-radius   : 25%;
+    transition      : 0.8s;
+}
+
+.small-square {
+    position        : absolute;
+    top             : 37.5%;
+    left            : 37.5%;
+    width           : 25%;
+    height          : 25%;
+    background-color: #f8bb00;
+    border-radius   : 15%;
+    z-index         : 15;
+}
+
+.circle--top--left {
+    position        : absolute;
+    top             : 10%;
+    left            : 10%;
+    height          : 30%;
+    width           : 30%;
+    background-color: #ee1c04;
+    border-radius   : 50%;
+    z-index         : 5;
+}
+
+.circle--top--left:hover {
+    background-color: #d1a732;
+    transition      : 1s;
+    border-radius   : 1%;
+    z-index         : 11;
+}
+
+.circle--top--right {
+    position        : absolute;
+    top             : 10%;
+    left            : 60%;
+    height          : 30%;
+    width           : 30%;
+    background-color: #ee1c04;
+    border-radius   : 50%;
+    z-index         : 5;
+}
+
+.circle--top--right:hover {
+    background-color: #8295cf;
+    transition      : 1s;
+    border-radius   : 5%;
+    z-index         : 11;
+}
+
+.circle--button--left {
+    position        : absolute;
+    top             : 60%;
+    left            : 10%;
+    height          : 30%;
+    width           : 30%;
+    background-color: #ee1c04;
+    border-radius   : 50%;
+    z-index         : 5;
+}
+
+.circle--button--left:hover {
+    background-color: #d169c7;
+    transition      : 1s;
+    border-radius   : 10%;
+    z-index         : 11;
+}
+
+.circle--button-right {
+    position        : absolute;
+    top             : 60%;
+    left            : 60%;
+    height          : 30%;
+    width           : 30%;
+    background-color: #ee1c04;
+    border-radius   : 50%;
+    z-index         : 5;
+}
+
+.circle--button-right:hover {
+    background-color: #14e330;
+    transition      : 1s;
+    border-radius   : 25%;
+    z-index         : 11;
+}
